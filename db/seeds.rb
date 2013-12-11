@@ -1,0 +1,5 @@
+Entry.create(name: "jeff")
+Entry.create(name: "Albert")
+Entry.create(name: "Prince")
+Entry.create(name: "Babel")
+Entry.create(name: "Estonia")
