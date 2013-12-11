@@ -3,9 +3,7 @@ app = angular.module("Raffler", ["ngResource"])
 @RaffleCtrl = ($scope,$resource) ->
   Entry = $resource("/entries/:id", {id: "@id"}, {update: {method: "PUT"}})
   $scope.entries = [
-    {name:"Larry"}
-    {name:"Curley"}
-    {name:"Moe"}
+
   ]
 
   $scope.addEntry = -> 
